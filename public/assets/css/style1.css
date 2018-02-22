@@ -1,0 +1,138 @@
+/*body {
+	background: url(https://raw.githubusercontent.com/Jmorquecho92/BrewBuddy/master/taproom.png);
+	background-size: 100%;
+}*/
+
+
+aside a img {
+	border-radius: 4px;
+	width: 25px;
+	height: 25px;
+	margin-top: -4px;
+	margin-right: 10px;
+
+}
+
+aside a:hover img { 
+	transform: scale(1.2); 
+}
+
+
+
+img#taproomPhoto {
+	width: 1000px;
+	height: 500px;
+	margin-top: -35px;
+	margin-right: 250px;
+}
+
+div#brewButtons1 {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	/*border: 1px solid black;*/
+	margin-left: 250px;
+	margin-bottom: 150px;
+}
+
+#brewBtn1 {
+	position: absolute;
+	bottom: 175px;
+	right: 130px;
+	width: 75px;
+	height:35px;
+	background-color: black;
+	color: white;
+	border: solid 1px white;
+	/*background-image: url("https://s3.amazonaws.com/brewerydbapi/beer/gPH4cc/upload_eRuSjy-icon.png");*/
+}
+
+#brewBtn2 {
+	position: absolute;
+	bottom: 175px;
+	right: 210px;
+	width: 75px;
+	height:35px;
+	background-color: black;
+	color: white;
+	border: solid 1px white;
+	/*background-image: url("https://s3.amazonaws.com/brewerydbapi/beer/TltD18/upload_SzdjIP-icon.png");*/
+}
+#brewBtn3 {
+	position: absolute;
+	bottom: 180px;
+	right: 300px;
+	width: 75px;
+	height:40px;
+	background-color: black;
+	color: white;
+	border: solid 1px white;
+	/*background-image: url("https://s3.amazonaws.com/brewerydbapi/beer/p3xVOq/upload_jaxhp9-icon.png");*/
+}
+#brewBtn4 {
+	position: absolute;
+	bottom: 185px;
+	right: 400px;
+	width: 75px;
+	height:35px;
+	background-color: black;
+	color: white;
+	border: solid 1px white;
+	/*background-image: url("https://s3.amazonaws.com/brewerydbapi/beer/fvhAmk/upload_YRgwxh-icon.png");*/
+}
+#brewBtn5 {
+	position: absolute;
+	bottom: 185px;
+	right: 510px;
+	width: 75px;
+	height:35px;
+	background-color: black;
+	color: white;
+	border: solid 1px white;
+	/*background-image: url("https://s3.amazonaws.com/brewerydbapi/beer/FOu9QN/upload_BI7QGL-icon.png");*/
+}
+#brewBtn6 {
+	position: absolute;
+	bottom: 185px;
+	right: 635px;
+	width: 75px;
+	height:35px;
+	background-color: black;
+	color: white;
+	border: solid 1px white;
+	/*background-image: url("https://s3.amazonaws.com/brewerydbapi/beer/7JENYQ/upload_NiG2rC-icon.png");*/
+}
+#brewBtn7 {
+	position: absolute;
+	bottom: 185px;
+	right: 745px;
+	width: 55px;
+	height:35px;
+	background-color: black;
+	color: white;
+	border: solid 1px white;
+	/*background-image: url("https://s3.amazonaws.com/brewerydbapi/beer/QWGfER/upload_QH5sxr-icon.png");*/
+	background-size: 50px 60px;
+    background-repeat: no-repeat;
+}
+
+/*aside {
+	position: absolute;
+	text-align: center;
+	font-size: 24px;
+	font: arial;
+	color: coral;
+	top: 50px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 100px;
+	background-color: rgba(0,0,0,0.75);
+}*/
+
+.display {
+	margin-left: 20px;
+	max-width: 900px;
+	text-align: left;
+
+}

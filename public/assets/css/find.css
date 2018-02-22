@@ -1,0 +1,188 @@
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	background-image: black;
+	background-size: : 100%;
+}
+
+/*body{
+	 font-family:Arial, Helvetica, sans-serif;
+	  background:url(../images/tap.jpg) no-repeat center fixed;
+     -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	-o-background-size: cover;
+	 background-size: cover;
+	 background-position: top;
+	 background-size: 100% 70%;
+
+ }*/
+
+/*body {
+	height: 100%;
+	color: #495057;
+	margin: 0;
+	margin-bottom: 90px;
+	font-family: 'Source Sans Pro', sans-serif;
+}*/
+
+/*header#main-header {
+	height: 90px;
+	background: #ab4a9c;
+	background: webkit-linear-gradient(to bottom right, #808080, #662d91);
+	background: linear-gradient(to bottom right, #808080, #662d91);
+	width: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	z-index: 5;
+}*/
+
+h1 {
+	color: #fff;
+	padding-bottom: 20px;
+	font-family: Georgia, sans-serif;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: Georgia, sans-serif;
+	font-weight: bold;
+	margin-top: 40px;
+	line-height: 2.5rem;
+}
+
+h3.map-heading {
+	margin-top: 0px;
+	color: #662d91;
+}
+
+
+
+.btn {
+	border-radius: 0 !important;
+	font-weight: bold;
+	min-width: 170px;
+	font-family: georgia, sans-serif;
+	background: #ffffff;
+	color: 	#808080;	
+	cursor: pointer;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.btn:hover {
+	background: #1a1a1a;
+	color: white;
+	transform: scale(1.1);
+}
+
+#contact-btn, #website-btn {
+	background: #808080;
+	color: #fff;
+	box-shadow: none;
+}
+
+
+
+#website-btn {
+	margin-bottom: 20px;
+}
+
+
+
+
+input {
+	border-radius: 0 !important;
+	padding: .75rem !important;
+	margin-bottom: 20px;
+}
+
+#map {
+    height: 85%;
+    width: 100%;
+    left: 0;
+    position: fixed !important;
+    /*top: 80px;*/
+    z-index: 1;
+    padding: 90px 0 30px;
+    /*margin-top: -30px;*/
+}
+
+#brewery-content {
+	max-width: 485px;
+	position: relative;
+	z-index: 2;
+	display: block;
+	margin: 100px 0;
+	margin-left: 30px;
+	width: 30%;
+}
+
+#find-breweries {
+	background: #808080;
+	background: webkit-linear-gradient(to bottom right, #808080, #4d4d4d);
+	background: linear-gradient(to bottom right, #808080, #4d4d4d);
+	padding: 25px;
+	margin-top: 20px;
+
+	/*margin-bottom: 35px;*/
+}
+
+.brewery-num {
+	background: #262626;
+	padding: 5px 15px;
+	color: #ffffff;
+}
+
+#form-content {
+	background: #ffffff;
+	padding: 25px;
+}
+
+ .wrap {
+	width:80%;
+	margin: 0 auto;
+	transition:all .2s linear;
+	-moz-transition:all .2s linear;/* firefox */
+	-webkit-transition:all .2s linear; /* safari and chrome */
+	-o-transition:all .2s linear; /* opera */
+	-ms-transition:all .2s linear;
+}
+
+
+.header_top_one{
+	background: #4d4d4d;
+	padding: 8px 0 8px 0;
+}
+
+
+.nav li{
+	display:inline-block;
+	padding: 10px;
+}
+.nav li a {
+	font-size:3em;
+	color:#FFF;
+	padding:30px 25px ;
+	border-right: 2px ridge rgba(80, 80, 80, 0.41);
+	font-family: 'fontleroybrownregular';
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	-ms-transition: all .5s;
+	transition: all .5s;
+	text-align: center;
+}
+
+
+@font-face {
+    font-family: 'fontleroybrownregular';
+    src:url(../fonts/FontleroyBrown-webfont.ttf) format('truetype');
+
+}

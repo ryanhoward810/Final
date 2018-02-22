@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Mayonaise1!",
+    "database": "brew",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "Mayonaise1!",
+    "database": "brew",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "fntk3dec11cghkmf",
+    "password": "ry2a63rllqzi658o",
+    "database": "wy0d1j17bijzbi14",
+    "host": "gx97kbnhgjzh3efb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
+}

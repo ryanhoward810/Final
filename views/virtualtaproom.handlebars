@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Virtual Taproom</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="assets/css/virtual.css" rel="stylesheet" type="text/css" media="all">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="https://www.gstatic.com/firebasejs/4.5.2/firebase.js"></script>
+</head>
+ <body>
+	    <div class="header_top_one">
+		 	  <div class="wrap">	 			
+				<div class="logo1">
+					{{!-- <a href="/index1"><img src="images/logo.png" alt=""></a> --}}
+				</div>	
+				<div class="nav">			
+				  <ul>
+					<li><a href="/index1">Home</a></li>
+			    	<li><a href="/about">About</a></li>
+			    	<li><a href="/virtualtaproom">Virtual Taproom</a></li>
+               {{!-- <li><a href="https://rhoward-brewbuddy.herokuapp.com" target="_blank">Social Reviews</a></li> --}}
+			    	<li><a href="/find">Brew Locator</a></li>
+			    	<li><a href="/contact">Contact</a></li>
+			    	<div class="clear"></div>
+			       </ul>	
+			    </div>	 
+ 				<div class="clear"></div>		   
+ 	   		</div>
+ 	     </div>
+	       {{!-- <div class="wrap"> --}}
+	       {{!--  <div class="main">	 --}}
+
+
+	             <nav class="navbar navbar-expand-lg navbar-black bg-black">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+         </nav>
+        
+       
+         {{!-- <div class="col-lg-3">
+            </form>
+         </div>
+         </nav> --}}
+         <div class="col-lg-3">
+
+            <form id="brew-form">
+               <label for="newBrewInput"><strong>Add your FAVORITE Type of Brew</strong></label>
+               <input type="text" id="newBrewInput">
+               <br>
+               <input id="addBrew" type="submit" value="Submit">
+            </form>
+            <div id="brewButtons2"></div>
+
+         </div>
+          <div id="brewButtons1">
+         <img src="assets/images/tap1.jpg" id="taproomPhoto">
+      </div>
+         </div>
+
+         <div class="display">
+         	
+         </div>
+         <!-- jQuery -->
+         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+         <script type="text/javascript" src="assets/js/brew1.js"></script>        	
+	        		
+		         </div>
+	        	</div>        
+	        </div>
+	     
+      </body>
+ </html>
+
